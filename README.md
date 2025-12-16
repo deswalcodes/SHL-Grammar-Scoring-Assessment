@@ -1,4 +1,13 @@
 # 📝 Technical Report: Automated Grammar Scoring Engine
+## ⚠️ Usage Note for Reviewers
+This notebook was developed and executed in the **Kaggle** environment. 
+It relies on the specific directory structure of the SHL Competition dataset:
+- Input Path: `/kaggle/input/shl-intern-hiring-assessment-2025/`
+
+**To run this locally or on Colab:**
+1. You must download the dataset.
+2. Update the `TEST_CSV_PATH` and `TEST_AUDIO_DIR` variables in the code to point to your local dataset location.
+
 
 ## 1. Overview
 This notebook presents a multi-modal Deep Learning solution for automated grammar scoring (0.0 - 5.0). The approach fuses acoustic features (WavLM) with semantic and syntactic features (DeBERTa, Qwen 2.5) to robustly predict grammar quality from spoken audio.
