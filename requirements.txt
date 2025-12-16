@@ -1,0 +1,14 @@
+numpy
+pandas
+scikit-learn
+torch
+transformers
+librosa
+lightgbm
+scipy
+seaborn
+matplotlib
+language_tool_python
+textstat
+openai-whisper
+git+https://github.com/linto-ai/whisper-timestamped
